@@ -8,7 +8,7 @@ part 'user.g.dart';
 @freezed
 class User with _$User {
   factory User({
-    @JsonKey(name: 'id') String? id,
+    @JsonKey(name: 'id') int? id,
     @JsonKey(name: 'name') String? name,
     @JsonKey(name: 'username') String? username,
     @JsonKey(name: 'email') String? email,
